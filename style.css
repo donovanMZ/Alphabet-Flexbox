@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 56px;
+}
+.row {
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.letter {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: yellow;
+    margin: 8px;
+}
+
+.letter:hover {
+    opacity: 0.5;
+    padding: 89px;
+    transition: 0.4s;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+}
+
